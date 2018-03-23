@@ -9,7 +9,7 @@
 }
 
 .card > .img-container {
-  background:#6CADDC;
+  /*background:black;*/
   cursor: pointer;
 }
 .card > .img-container > img {
