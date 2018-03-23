@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <Wrapper>
       <h1>Clicky Game</h1>
-      <div>{this.state.score} | {this.state.prevScore}</div>
+      <div><h1>Score</h1>{this.state.score} <h1>prevScore</h1> {this.state.prevScore}</div>
       <div className="jumbotron">
         <h2>Click on an image and earn a point, but dont click the same image or GAME OVER</h2>
       </div>
